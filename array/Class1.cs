@@ -49,7 +49,7 @@ namespace array
             }
             return maxIndex;
         }
-        public bool Sinc(int[] arra,bool fif)
+        public bool Sinc(int[] arra)
         {
             Console.WriteLine("Введите любое число: ");
             int first = Convert.ToInt32(Console.ReadLine());
@@ -57,15 +57,15 @@ namespace array
             {
                 if (first == arra[i])
                 {
-                    Console.WriteLine("Данный элемент существует в массиве");
+                    return true;
                 }
 
                 else
                 {
-                    Console.WriteLine("Данный элемент  не существует в массиве"); 
+                    return false; 
                 }
             }
-            return fif;
+            return false;
         }
         public int Rinc(int[] arra)
         {

@@ -14,7 +14,7 @@ namespace array
         {
             Array arr=new Array();
             int[] arra = new int[5];
-            Console.Write(arr.Rinc(arr.Dinc(arra)));
+            Console.Write(arr.Sinc(arr.Dinc(arra)));
             Console.ReadKey();
         }
     }
